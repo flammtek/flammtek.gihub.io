@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://your-domain.com/about/</loc>
+    <loc>https://flammtek.github.io/about/</loc>
   </url><url>
-    <loc>https://your-domain.com/</loc>
+    <loc>https://flammtek.github.io/</loc>
   </url><url>
-    <loc>https://your-domain.com/mdf-plasma/</loc>
+    <loc>https://flammtek.github.io/mdf-plasma/</loc>
   </url><url>
-    <loc>https://your-domain.com/seed-plasma/</loc>
+    <loc>https://flammtek.github.io/seed-plasma/</loc>
   </url>
 </urlset>
