@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FlammTek - Pioneering Plasma Technology on FlammTek</title>
+    <link>https://your-domain.com/</link>
+    <description>Recent content in FlammTek - Pioneering Plasma Technology on FlammTek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>contact@flammtek.com (FlammTek Team)</managingEditor>
+    <webMaster>contact@flammtek.com (FlammTek Team)</webMaster>
+    <copyright>© FlammTek - Sustainable Plasma Technology</copyright><atom:link href="https://your-domain.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About FlammTek</title>
+      <link>https://your-domain.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>contact@flammtek.com (FlammTek Team)</author>
+      <guid>https://your-domain.com/about/</guid><description>Learn about FlammTek&#39;s mission to revolutionize sustainable technology through cold plasma innovation</description></item>
+    <item>
+      <title>Tratamento de Resíduos de MDF por Plasma</title>
+      <link>https://your-domain.com/mdf-plasma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>contact@flammtek.com (FlammTek Team)</author>
+      <guid>https://your-domain.com/mdf-plasma/</guid><description>Pesquisa em degradação de resina ureia-formaldeído baseada em plasma para reciclagem de MDF</description></item>
+    <item>
+      <title>Tratamento de Sementes por Plasma</title>
+      <link>https://your-domain.com/seed-plasma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>contact@flammtek.com (FlammTek Team)</author>
+      <guid>https://your-domain.com/seed-plasma/</guid><description>Pesquisa em tratamento de superfície por plasma frio para melhoria das características de sementes</description></item>
+  </channel>
+</rss>
