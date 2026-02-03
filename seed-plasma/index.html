@@ -23,12 +23,12 @@
   <meta property="og:site_name" content="FlammTek - Plasma Innovation" />
 
   
-  <link rel="stylesheet" href="/css/main.min.834bd4c06036a6ffae7efa070cee658348f07e656337f3678d638b792aface87.css" />
+  <link rel="stylesheet" href="/css/main.min.e756e8fe23fd34a459e580ae6004f16a69ec0cdafe69d68020d42f6627cb00c2.css" />
   
   
   <script src="/js/main.803f06047bab3f1186da5b17482cbd541cf367724430153787db8e3a572a716e.js" defer></script>
 
-<link rel="stylesheet" href="/css/custom.min.784e5cefdb219b9bbb743ec51d8fa900014abc41d21af28edee5b0eee91e034f.css" />
+<link rel="stylesheet" href="/css/custom.min.e109b2afda263d1949c8d0d615949db5ac7b4b5c7e4dbbebaf6411af010d8d4a.css" />
 
 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -248,7 +248,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
       <main class="tech-page-content">
         <style>
-/* Plasma Theme Variables */
 :root {
   --plasma: #a855f7;
   --plasma-bright: #c084fc;
@@ -260,12 +259,9 @@ document.addEventListener('DOMContentLoaded', () => {
   --gray-100: #f0f0f5;
 }
 
-/* Page Background */
 .tech-page-content {
-  background: 
-    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(168, 85, 247, 0.08), transparent),
-    radial-gradient(ellipse 60% 40% at 100% 20%, rgba(6, 182, 212, 0.06), transparent),
-    #fff;
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(168, 85, 247, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 20%, rgba(6, 182, 212, 0.06), transparent), #fff;
   min-height: 100vh;
 }
 
@@ -280,7 +276,6 @@ document.addEventListener('DOMContentLoaded', () => {
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
   margin: 0 0 16px;
-  letter-spacing: -0.02em;
   background: linear-gradient(135deg, var(--plasma-deep) 0%, var(--plasma) 50%, var(--electric) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -294,6 +289,21 @@ document.addEventListener('DOMContentLoaded', () => {
   margin: 0 auto;
 }
 
+.plasma-visual {
+  max-width: 500px;
+  margin: 32px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);
+  border: 2px solid rgba(168, 85, 247, 0.3);
+}
+
+.plasma-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .content-section {
   max-width: 800px;
   margin: 0 auto;
@@ -304,7 +314,6 @@ document.addEventListener('DOMContentLoaded', () => {
   font-size: 1.75rem;
   font-weight: 700;
   margin: 48px 0 20px;
-  letter-spacing: -0.01em;
   color: var(--black);
   position: relative;
   display: inline-block;
@@ -325,35 +334,6 @@ document.addEventListener('DOMContentLoaded', () => {
   color: var(--gray-700);
   line-height: 1.8;
   margin-bottom: 16px;
-}
-
-.content-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 24px 0;
-}
-
-.content-section li {
-  position: relative;
-  padding: 16px 0 16px 28px;
-  border-bottom: 1px solid var(--gray-100);
-  color: var(--gray-700);
-}
-
-.content-section li:last-child {
-  border-bottom: none;
-}
-
-.content-section li::before {
-  content: "→";
-  position: absolute;
-  left: 0;
-  color: var(--plasma);
-  font-weight: 600;
-}
-
-.content-section li strong {
-  color: var(--black);
 }
 
 .feature-grid {
@@ -437,7 +417,24 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .tech-specs ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
+}
+
+.tech-specs li {
+  padding: 8px 0;
+  color: var(--gray-700);
+  position: relative;
+  padding-left: 24px;
+}
+
+.tech-specs li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--plasma);
+  font-weight: 600;
 }
 
 .cta-section {
@@ -457,8 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(circle at 20% 50%, rgba(168, 85, 247, 0.3), transparent 50%),
+  background: radial-gradient(circle at 20% 50%, rgba(168, 85, 247, 0.3), transparent 50%),
     radial-gradient(circle at 80% 50%, rgba(6, 182, 212, 0.2), transparent 50%);
   pointer-events: none;
 }
@@ -533,11 +529,20 @@ document.addEventListener('DOMContentLoaded', () => {
 <p data-pt="Nossa pesquisa explora como as espécies reativas geradas pelo plasma interagem com superfícies de revestimento de sementes para potencialmente melhorar características de germinação." data-en="Our research explores how plasma-generated reactive species interact with seed coating surfaces to potentially improve germination characteristics.">Nossa pesquisa explora como as espécies reativas geradas pelo plasma interagem com superfícies de revestimento de sementes para potencialmente melhorar características de germinação.</p>
 <h2 data-pt="Mecanismo de Ação" data-en="Mechanism of Action">Mecanismo de Ação</h2>
 <p data-pt="Quando sementes são expostas ao plasma frio, vários processos físicos e químicos ocorrem na superfície:" data-en="When seeds are exposed to cold plasma, several physical and chemical processes occur at the surface:">Quando sementes são expostas ao plasma frio, vários processos físicos e químicos ocorrem na superfície:</p>
-<ul>
-<li data-pt="<strong>Oxidação de Superfície</strong> — Espécies reativas de oxigênio (ERO) introduzem grupos funcionais contendo oxigênio que podem aumentar a hidrofilicidade da superfície" data-en="<strong>Surface Oxidation</strong> — Reactive oxygen species (ROS) introduce oxygen-containing functional groups that can increase surface hydrophilicity"><strong>Oxidação de Superfície</strong> — Espécies reativas de oxigênio (ERO) introduzem grupos funcionais contendo oxigênio que podem aumentar a hidrofilicidade da superfície</li>
-<li data-pt="<strong>Ataque de Superfície</strong> — Espécies de plasma podem causar modificação microscópica da estrutura do revestimento da semente" data-en="<strong>Surface Etching</strong> — Plasma species can cause microscopic modification of the seed coating structure"><strong>Ataque de Superfície</strong> — Espécies de plasma podem causar modificação microscópica da estrutura do revestimento da semente</li>
-<li data-pt="<strong>Mudanças na Energia de Superfície</strong> — Alterações na química da superfície afetam o ângulo de contato da água e características de absorção" data-en="<strong>Surface Energy Changes</strong> — Changes in surface chemistry affect water contact angle and absorption characteristics"><strong>Mudanças na Energia de Superfície</strong> — Alterações na química da superfície afetam o ângulo de contato da água e características de absorção</li>
-</ul>
+<div class="feature-grid">
+  <div class="feature-card">
+    <h4 data-pt="Oxidação de Superfície" data-en="Surface Oxidation">Oxidação de Superfície</h4>
+    <p data-pt="Espécies reativas de oxigênio (ERO) introduzem grupos funcionais que aumentam a hidrofilicidade da superfície." data-en="Reactive oxygen species (ROS) introduce functional groups that increase surface hydrophilicity.">Espécies reativas de oxigênio (ERO) introduzem grupos funcionais que aumentam a hidrofilicidade da superfície.</p>
+  </div>
+  <div class="feature-card">
+    <h4 data-pt="Ataque de Superfície" data-en="Surface Etching">Ataque de Superfície</h4>
+    <p data-pt="Espécies de plasma causam modificação microscópica da estrutura do revestimento da semente." data-en="Plasma species cause microscopic modification of the seed coating structure.">Espécies de plasma causam modificação microscópica da estrutura do revestimento da semente.</p>
+  </div>
+  <div class="feature-card">
+    <h4 data-pt="Energia de Superfície" data-en="Surface Energy">Energia de Superfície</h4>
+    <p data-pt="Alterações na química afetam o ângulo de contato da água e características de absorção." data-en="Changes in chemistry affect water contact angle and absorption characteristics.">Alterações na química afetam o ângulo de contato da água e características de absorção.</p>
+  </div>
+</div>
 <h2 data-pt="Áreas de Pesquisa" data-en="Research Areas">Áreas de Pesquisa</h2>
 <div class="feature-grid">
   <div class="feature-card">
@@ -559,7 +564,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <h2 data-pt="Abordagem Técnica" data-en="Technical Approach">Abordagem Técnica</h2>
 <div class="tech-specs">
-<h3 data-pt="Especificações do Sistema DBD" data-en="DBD System Specifications">Especificações do Sistema DBD</h3>
+<h3 data-pt="Sistema DBD" data-en="DBD System">Sistema DBD</h3>
 <p data-pt="Nossos sistemas utilizam geração de plasma por Descarga de Barreira Dielétrica (DBD) em pressão atmosférica:" data-en="Our systems use Dielectric Barrier Discharge (DBD) plasma generation at atmospheric pressure:">Nossos sistemas utilizam geração de plasma por Descarga de Barreira Dielétrica (DBD) em pressão atmosférica:</p>
 <ul>
 <li data-pt="Nenhum equipamento de vácuo necessário" data-en="No vacuum equipment required">Nenhum equipamento de vácuo necessário</li>
@@ -587,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   <section class="social-icons">
     
-      <a target="_blank" rel="noopener" title="Website" href="https://flammtek.com">
+      <a target="_blank" rel="noopener" title="Website" href="https://flammtek.github.io">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
           <path fill="currentColor" d="M8.904 16.5h6.192C14.476 19.773 13.235 22 12 22c-1.197 0-2.4-2.094-3.038-5.204zh6.192zm-5.838.001h4.306c.364 2.082.983 3.854 1.792 5.093a10.029 10.029 0 0 1-5.952-4.814zm13.563 0h4.305a10.028 10.028 0 0 1-6.097 5.093c.755-1.158 1.344-2.778 1.715-4.681zh4.305zm.302-6.5h4.87a10.047 10.047 0 0 1-.257 5H16.84a28.676 28.676 0 0 0 .13-4.344zh4.87zM2.2 10h4.87a28.211 28.211 0 0 0 .033 4.42l.057.58H2.456a10.047 10.047 0 0 1-.258-5m6.377 0h6.849a25.838 25.838 0 0 1-.037 4.425l-.062.575H8.674a25.987 25.987 0 0 1-.132-4.512zh6.849zm6.368-7.424l-.108-.17A10.027 10.027 0 0 1 21.373 8.5h-4.59c-.316-2.416-.957-4.492-1.838-5.923l-.108-.17zm-5.902-.133l.122-.037c-.88 1.351-1.535 3.33-1.883 5.654l-.062.44H2.63a10.028 10.028 0 0 1 6.413-6.057l.122-.037zM12 2.002c1.319 0 2.646 2.542 3.214 6.183l.047.315H8.739C9.28 4.691 10.644 2.002 12 2.002" />
         </svg>
@@ -608,7 +613,7 @@ document.addEventListener('DOMContentLoaded', () => {
       </a>
     
     
-      <a title="E-Mail" href="contact@flammtek.com">
+      <a title="E-Mail" href="flammtek@gmail.com">
         <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"></path>
           <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"></path>
@@ -626,7 +631,7 @@ document.addEventListener('DOMContentLoaded', () => {
         LinkedIn
       </a>
     
-      <a href="mailto:contact@flammtek.com">
+      <a href="mailto:flammtek@gmail.com">
         Contact
       </a>
     
